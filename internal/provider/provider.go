@@ -170,6 +170,7 @@ func (p *NPSProvider) Resources(ctx context.Context) []func() resource.Resource 
 		NewFileAccessRuleResource,
 		NewMCPServerSettingsResource,
 		NewMPASettingsResource,
+		NewMTLSCASettingsResource,
 		NewNetworkFlowRuleResource,
 		NewPackageRuleResource,
 		NewRiskEngineSettingsResource,
