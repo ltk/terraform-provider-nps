@@ -164,6 +164,7 @@ func (p *NPSProvider) Resources(ctx context.Context) []func() resource.Resource 
 		NewAPIKeyCIDRSettingsResource,
 		NewApprovalWorkflowSettingsResource,
 		NewAutoUpdateSettingsResource,
+		NewBinaryUploadConfigSettingsResource,
 		NewChatSettingsResource,
 		NewDirectorySettingsResource,
 		NewExportConfigSettingsResource,
